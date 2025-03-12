@@ -5,7 +5,9 @@ import lombok.Data;
 
 @Data
 @Builder
-public class TurnoOutputDTO {
+public class MascotaOutputDTO {
     private Long id;
-    private MascotaOutputDTO mascota;
+    private String nombre;
+    private String raza;
+
 }

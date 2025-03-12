@@ -2,7 +2,6 @@ package com.example.springboot.services;
 
 import com.example.springboot.dtos.input.TurnoInputDTO;
 import com.example.springboot.dtos.output.TurnoOutputDTO;
-import com.example.springboot.models.entities.Turno;
 
 import java.util.List;
 

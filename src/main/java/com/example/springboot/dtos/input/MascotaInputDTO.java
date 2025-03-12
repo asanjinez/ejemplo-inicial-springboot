@@ -3,7 +3,9 @@ package com.example.springboot.dtos.input;
 import lombok.Data;
 
 @Data
-public class TurnoInputDTO {
+public class MascotaInputDTO {
     private Long id;
-    MascotaInputDTO mascota;
+    private String nombre;
+    private String raza;
+
 }
